@@ -1,0 +1,1617 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.container{
+  border: solid 1 red;
+}
+
+.logo img{
+    position: relative;`        
+     width: 220px;
+    height: 110px;
+    border-radius: 50%;
+    top: 30px;
+    display: inline-block;
+}
+
+.navigation ul li { 
+    position: relative;
+    
+    left: 100px;
+    margin-left: 30px;
+    display: inline-block;
+    font-size: 1.5em;
+    top: -40px;
+    word-spacing: 0.2em;
+    animation-duration: 1s;
+
+
+}
+.navigation ul li a:hover{
+    background-color: red;
+    color:white;
+    transition: 1s;
+    border:solid red 4px;
+
+
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: blue;
+}
+
+ ul li a img{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    right: 15px;
+    top: 2px;
+    border-radius: 20%;
+
+ }
+ .photo1 img{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    top:-10px;
+    
+    
+ }
+ .hello pre{
+    position: relative;
+    /*font-family: ti;*/
+    width: 50%;
+    height: 300px;
+    top: -700px;
+    text-shadow: 0 0 3px #FF0000;
+    color:grey;
+
+
+ }
+ .hello pre h1{
+    position: relative;
+    text-align: center; 
+    top: 100px;
+ }
+ .photo2 {
+    position: relative;
+    top: -340px;
+    background-color: black;
+    width: 100%;
+    
+ }
+ .photo2 img{
+    width: 40%;
+    height: 500px;
+    margin-left: 720px;
+
+ }
+ .photo2 h1{
+    position: relative;
+    color: white;
+    top: -460px;
+    margin-left: 100px;
+ }
+  .photo2 span{
+    position: relative;
+    color: white;
+ /* background: grey;*/
+    width: 30%;
+    display: inline-block;
+    font-size: 1.2em;
+    word-spacing: 0.3em;
+    top: -420px;
+    margin-left: 100px;
+ }
+ 
+.photo3 img{
+    width: 50%;
+    height: 500px;
+    position: relative;
+    margin-top: -340px;
+    /*background-color: grey;*/
+}
+.photo3 h1{
+    position: relative;
+    margin-left: 800px;
+    margin-top: -400px;
+}
+.photo3 h2{
+    position: relative;
+    margin-left: 840px;
+    margin-top: 30px;
+    color: red;
+    /*background-color: grey*/
+
+}
+.photo3 span{
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    margin-left:700px;
+    word-spacing: 0.5em;
+    font-size: 1.4em;
+
+}
+.photo3{
+    width: 100%;
+    height: -600px;
+    
+}
+.photo4 img{
+    width: 49.9%;
+    height: 500px;
+    position: relative;
+    margin-top:135px;
+    /*background-color: grey;*/
+    margin-left: 675px;
+}
+.photo4 h1{
+    position: relative;
+    margin-left: 50px;
+    margin-top: -400px;
+}
+.photo4 h2{
+    position: relative;
+    margin-left: 90px;
+    margin-top: 30px;
+    color: red;
+
+}
+.photo4 span{
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    word-spacing: 0.5em;
+    font-size: 1.4em;
+
+}
+
+
+.hello{
+    position: relative;
+    margin-left: 900px;
+    margin-top: 300px;
+    background-color: grey;
+
+}
+main{
+    position: relative;
+    margin-top: -300px;
+}
+.photo5 h2{
+    position: relative;
+    margin-top: 350px;
+    top: 80px;
+    text-align: center;
+    font-size: 4em;
+}
+.photo5 p{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-size: 2em;
+    
+}
+.photo5 img{
+    object-position: 50% 50%;
+    width: 301px;
+    height: 240px;
+    object-fit: cover;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+.first {
+    float: left;
+}
+.second {
+    float: left;
+}
+.third{
+    float: left;
+}
+.photo5 {
+    background-color: black;
+    width: 100%;
+    font-size: 0.8em;
+    height: 1000px;
+    color: white;
+    text-align: center;
+    /*line-height: 1.41em;*/
+
+}
+.first h1{
+    margin-left: 90px;
+    margin-top: 30px;
+    
+}
+.first h4{
+    margin-left: 90px;
+    margin-top: 10px;
+    
+}
+.second h1{
+    margin-left: 90px;
+    margin-top: 30px;
+    
+}
+.second h4{
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.third h1{
+    margin-left: 90px;
+    margin-top: 30px;
+    
+}
+.third h4{
+    margin-left: 90px;
+    margin-top: 10px;
+}
+footer{
+    background-color:#E6E6FA;
+    font-size: 2em;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.kurs img{
+    margin-top: 100px;
+    margin-left: 25%;
+}
+/*end navigation*/
+#navbar_main {
+    width: 100%;
+    line-height: 90px;
+    background-color: darkslategrey;
+    height:100px;
+}
+#navbar_title {
+    float: left;
+    color: #1a1a37;
+    font-size: medium;
+    height: 100%;
+    /* width: 20%; */
+    line-height: 90px;
+    background-color: #ffbc3b;
+    text-align: center;
+
+}
+#static_p {
+    font-size: 25px;
+    text-align: center;
+}
+
+#static_hr {
+    border:2px #ffbc3b solid;
+    width: 60%;
+}
+
+.bg_image_main {
+    height: 700px;
+    padding: 0px;
+    background-image: url(images/campus2.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+.rgba_main {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+
+}
+.navbar_main .hidden_main {
+    text-align: left;
+}
+.hidden_main {
+    height: 320px;
+    background-color: yellow;
+    padding: 0px;
+    display: none;
+    width: 100%;
+}
+.hidden_li {
+    color: #1a1a37;
+    background-color: #ffbc3b;
+    font-weight: lighter;
+    height: 40px;
+    text-align: justify;
+    line-height: 40px;
+    font-size: 17px;
+}
+
+.hidden_li:hover {
+    background-color: #1a1a37;
+    text-align: left;
+    cursor: pointer;
+    color: #ffbc3b;
+}
+
+.icon_sld {
+    float: right;
+    color: white;
+    font-size: 30px;
+    padding-top: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+.icon_sld:hover {
+    color: midnightblue;
+    
+}
+
+#navbar_add {
+    float: left;
+    color: #ffbc3b;
+    text-align: right;
+    /* width: 80%; */
+    height: 100%;
+    background-color: #1a1a37;
+    
+}
+#navbar_add div {
+float: right;
+}
+#logo_img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+#ul {
+
+    float: left;
+    list-style-type: none;
+}
+#ul li {
+    
+    text-decoration: none;
+    display: inline-block;
+    padding:5px;
+    margin: 0px 10px;
+}
+#ul li a {
+    color: white;
+}
+
+#bottom_of_navbar {
+    height: 700px;
+
+}
+#bottom_of_navbar div {
+    height: 700px;
+    float: left;
+}
+
+
+
+
+
+#h3 {
+    font-size: 30px;
+    color: white;
+}
+
+#lorem {
+    color: white;
+    font-size: 20px;
+}
+
+
+#bottom_of_navbar #div2 {
+    background-color: yellowgreen;
+}
+#bottom_of_navbar #div2 {
+    background-image: url(images/campus.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+#bottom_of_navbar  #div3 {
+    width: 50%;
+    height: 100%;
+    
+    margin-left: 22%;
+}
+
+.st_div_main {
+    height: 400px;
+    
+    text-align: center;
+    /* border: 1px solid #1a1a37; */
+}
+
+.round_div {
+    width: 50%;
+    height: 30%;
+    /* border: 1px solid #1a1a37; */
+    line-height: 120px;
+    font-size: 30px;
+    margin-left: 25%;
+    /* color: #ffbc3b; */
+}
+.round_div i {
+    color: #ffbc3b;
+}
+
+.st_hr {
+    border: 2px solid #1a1a37;
+    margin-top: 40px;
+}
+
+.statics_p {
+    font-size: 25px;
+    text-align: center;
+    padding: 0px 0px;
+}
+
+.sta_hr {
+    border: 2px solid #ffbc3b;
+    width: 40%;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+#news_p {
+    font-size: 25px;
+    color: #1a1a37;
+}
+
+
+
+#news_1 {
+    transition: 0.5s;
+    min-height: 500px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 80px;
+}
+
+
+#time_p {
+    color: #1a1a37;
+    font-size: 15px;
+}
+
+#news_img {
+    padding:0px;
+    position: relative;
+}
+
+#title_p {
+    color: #1a1a37;
+    font-size: 20px;
+}
+
+
+ #news_1:hover {
+    transform: translate(0px,-40px);
+    background-color: #1a1a37;
+    color: white;
+    position: relative;
+    
+    
+}
+#news_1:hover #time_p {
+    color: white;
+
+}
+#news_1:hover #title_p {
+    color: white;
+}
+#news_1:hover #news_img {
+    border: 1px solid #ffbc3b;
+}
+
+#news_main img {
+    width: 100%;
+}
+#news_main {
+    margin-top: 150px;
+}
+
+.sign_top {
+    margin-top: 100px;
+}
+
+.con_of_login {
+    margin-bottom: 200px;
+}
+
+.m_100 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#leo {
+    padding-left: 0px;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/*In main page events begin*/
+.events_main_grid {
+    height: 500px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    transition: 0.5s;
+    font-family: cursive;
+}
+
+.events_img_path {
+    height: 50%;
+    background-image: url(images/event1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0px;
+    transition: 0.5s;
+    font-family: cursive;
+
+}
+
+.events_img_path .rgba_main {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.events_letter {
+    width: 100%;
+    height: 50%;
+    background-color: #1a1a37;
+    transition: 0.5s;
+}
+
+.eve_p {
+    color: white !important;
+    padding-left: 10px;
+}
+
+.ev_img_2 {
+    background-image: url(images/python.jpg);
+}
+
+.ev_img_3 {
+    background-image: url(images/ev3.jpg);
+}
+
+.events_main_grid:hover .box_shadow {
+    box-shadow: 10px 10px 10px lightgray,-10px -10px 10px lightgray,10px -10px 10px lightgray,-10px 10px 10px lightgray;
+}
+.box_shadow {
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+}
+.apply_btn {
+    margin:0px 10px;
+}
+.event_p {
+    color: white;
+    font-size: 20px; 
+    padding:0px 10px;
+}
+
+
+.event_time {
+    height: 80px;
+    width: 80px;
+    background-color: #ffbc3b;
+    border-top-right-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #1a1a37;
+    font-size: 20px;
+    transition: 0.5s;
+    transform: rotate(90deg);
+    text-orientation: sideways;
+}
+
+.events_main_grid:hover .event_time {
+    transform: rotate(0deg);
+    display: inline-block;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 50%;
+}
+
+.event_title {
+    font-size: 20px;
+    text-align: center;
+}
+
+.event_hr {
+    border: 2px solid #ffbc3b;
+    width: 30%;
+    margin-bottom: 70px;
+}
+/*In main page events end*/
+
+
+
+
+
+
+#news_hr {
+    border: 1.5px solid #ffbc3b;
+    width: 40%;
+}
+
+#news_main button {
+    border-radius: 0px;
+}
+
+#course_p {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 80px;
+}
+#course_hr {
+    width: 30%;
+    border:1px #ffbc3b solid;
+}
+#course_col_4 {
+    height: 450px; 
+    transition: 0.5s;
+    margin-top: 80px;
+    
+}
+#course_bottom {
+    transition: 0.5s;
+}
+
+#course_contain #course_col_4:hover {
+    transform: translate(0px,-40px);
+    
+    
+}
+#course_contain #course_col_4:hover #course_bottom {
+    background-color: #1a1a37;
+    color: #ffbc3b;
+}
+#course_contain #course_col_4:hover #begin_p {
+    color: #ffbc3b;
+}
+#course_contain #course_col_4:hover button {
+    margin: 5px;
+}
+
+.footer_grid a {
+    color: white;
+}
+
+
+
+
+#courses_main {
+    width: 100%;
+    height: 100%;
+    
+}
+#course_top {
+    height: 50%;
+    background-color: cadetblue;
+    background-image: url(images/course-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#begin_p {
+    font-size: 20px;
+    color: black;
+}
+#begin_p  i {
+    margin-right: 10px;
+    
+    text-align: center;
+}
+
+#span {
+    text-align: center;
+    
+    
+}
+#line {
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+#about_p {
+    font-size: 35px;
+
+}
+
+
+
+#student_table {
+  text-align: center;
+}
+
+#student_table tr {
+    border-bottom: 1px solid #1a1a37;
+}
+
+#title_tr  {
+    height: 40px;
+    
+}
+
+#our_team_p {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 100px;
+}
+#student_table td {
+    height: 50px;
+}
+/*IN a main page team page begin*/
+.con_of_team {
+    margin-top: 100px;
+}
+
+.team_grid_main {
+    height: 400px;
+    /* background-image: url(images/team1.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    
+}
+.bg_letter {
+    height: 100%;color: white;text-align: justify;font-size: 18px;
+}
+
+.bezdim {
+    width: 100%;background-color: ;height: 900px;float: left;
+}
+
+.bezdim2 {
+    height: 900px;float: left;background-color: currentColor;padding: 40px 10px;
+}
+
+.bezdim3{
+    height: 100%;
+}
+
+#our_team_p {
+    margin-top: 150px;
+}
+#ach_p {
+    margin-top: 200px;
+}
+
+.team_grid_main a {
+    color: white;
+    text-decoration: none;
+}
+.team_grid_main a:hover {
+    color: #ffbc3b;
+}
+.h_99 {
+    height: 100%;
+    line-height: 140px;
+    color: #1a1a37;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    line-height: 250px;
+    transition: 0.5s;
+}
+.h_99 a {
+    color: #1a1a37;
+}
+.hidden_a {
+    display: none;
+}
+.h_99 a:hover{
+    color: blue;
+}
+
+.team_grid_main:hover .hidden_a {
+    display: inline-block;
+}
+
+
+.h_1 {
+    height: 0%;
+    width: 100%;
+    transition: 0.5s;
+    color: white;
+    line-height: 150px;
+    text-align: center;
+    
+}
+.scale:hover .h_1 {
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.scale:hover .h_99 {
+    height: 50%;
+    background-color: rgba(247, 202, 24, 0.8);
+}
+.scale {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+    
+}
+
+.over {
+    overflow: hidden;
+}
+.team_grid_main {
+    margin-top: 100px;
+    overflow: hidden;
+}
+.scale {
+    overflow: hidden;
+}
+
+/* .scale:hover .team_grid_main {
+    transform: scale(1.3);
+} */
+
+.img_2 {
+    background-image: url(images/team1.jpg);
+}
+
+.img_1 {
+    background-image: url(images/team2.jpg);
+}
+
+.img_3 {
+    background-image: url(images/team3.jpg);
+}
+.img_4 {
+    background-image: url(images/team4.jpg);
+}
+/*IN a main page team page end*/
+
+
+#student_hr {
+    border: 1.5px solid black;
+    width: 40%;
+}
+#td_1 {
+    width: 40px;
+    background-color: #ffbc3b;
+    color: white;
+}
+#td_2 {
+    width: 300px;
+    background-color: #1a1a37;
+    color: white;
+}
+#td_3 {
+    width: 100px;
+    color: white;
+    background-color:#ffbc3b;
+}
+#achivment {
+    height: 400px;
+    
+}
+
+#ach_p {
+    text-align: center;
+    font-size: 25px;
+}
+#ach_hr {
+    width: 40%;
+    border: 1.5px solid #ffbc3b;
+}
+#static_js {
+    background-color: #ffbc3b;
+    height: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#len_js {
+    height: 100%;
+    background-color: #1a1a37;
+    width: 89%;
+}
+
+#len_py {
+    height: 100%;
+    background-color: #1a1a37;
+    width: 87%;
+}
+
+#len_c {
+    height: 100%;
+    background-color: #1a1a37;
+    width: 94%;
+}
+#len_html {
+    width: 100%;
+    height: 100%;
+    background-color: #1a1a37;
+}
+.btn {
+    border-radius: 0px;
+}
+
+
+
+
+
+#sign_in_photo {
+    background-image: url(images/prog.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sign_in_form {
+    height: 900px;
+    /* background-image: linear-gradient(to bottom right,#ffbc3b,#1a1a37); */
+    background-color: currentColor;
+}
+
+#fill_form {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+
+}
+
+#fill_hr {
+    border: 1.5px solid white;
+}
+#name {
+    color: white;
+    font-size: 20px;
+    
+}
+
+#input_name {
+    width: 80%;
+    height: 40px;
+}
+
+.p_form {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+.sing_in_form {
+    width: 70%;
+    height: 40px;
+    margin-bottom: 80px;
+    background-color: #ffbc3b;
+    color: #1a1a37;
+    font-size: 20px;
+    outline: none;
+    border-style: none;
+    padding-left: 10px;
+}
+
+.sing_in_form::placeholder {
+    color: #1a1a37;
+    outline: none;
+    border-style: none;
+    
+}
+
+
+#overlay {
+    
+    visibility: hidden;
+    line-height: 255px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #1a1a37;
+    
+}
+
+#course_top:hover #overlay {
+    background-color: rgba(247, 202, 24, 0.8);
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    visibility: visible;
+  
+    
+    
+}
+#our_team {
+    transition: 1s;
+    cursor: pointer;
+}
+
+#overlay_2 {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: none;
+    transition: 1s;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    line-height:360px ;
+
+}
+
+.con_btn {
+    margin-top: 0px;margin-left: 15%;
+}
+#overlay_2 a {
+    color: white;
+}
+
+#team_4:hover #overlay_2 {
+    display: inline-block;
+    
+}
+#team_1:hover #overlay_2 {
+    display: inline-block;
+    
+}
+#team_2:hover #overlay_2 {
+    display: inline-block;
+    
+}
+#team_3:hover #overlay_2 {
+    display: inline-block;
+    
+}
+.footer_img {
+    background-image: url(images/codex.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    /* margin-bottom: 100px; */
+    border-bottom: 1px solid blue;
+    float: left;
+}
+
+.footer_grid {
+    height: 100%;
+    background-color: #1a1a37;
+    color: white;
+    
+    float: left;
+}
+
+.foot_home {
+    height: 40px;
+    margin-top: 2px;
+    line-height: 40px;
+    
+}
+.foot_home:hover {
+    height: 40px;
+    background-color: #ffbc3b;
+    color: #1a1a37;
+    
+    line-height: 40px;
+}
+.foot_contact {
+    height: 100%;
+    float: left;
+    background-color: #1a1a37;
+    padding-top: 10px;
+}
+
+.con_p {
+    color: white;
+    font-size: 20px;
+
+}
+.con_hr {
+    border:1px solid white;
+}
+
+.cons_p {
+    color: white;
+    font-size: 15px;
+    padding-top: 15px;
+}
+.foot_subs {
+    float: left;
+    height: 100%;
+    background-color:#1a1a37;
+    padding-top: 10px;
+}
+
+.foot_input {
+    height: 50px;
+    background-color: #ffbc3b;
+    outline: none;
+    border-style: none;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.hj {
+    color: #1a1a37;
+}
+
+
+.footer {
+    height: 300px;
+    background-color: #ffbc3b;
+    padding: 0px;
+}
+
+
+/* Contact page css begin*/
+#sign_in_for {
+    min-height: 500px;
+    border-right: 1px solid lightgray;
+    padding: 20px;
+}
+
+#title_contact_p {
+    font-size: 30px;
+
+}
+
+#hr_in_contact {
+    width: 100%;
+    border:1px #1a1a37 solid;
+}
+
+#inputs_of_contact {
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    border-style:hidden;
+    
+    outline: none;
+    padding-left: 10px
+    ;
+}
+
+#text_contact {
+    width: 100%;
+    height: 200px;
+    padding-left: 10px;
+    font-size: 20px;
+    outline: none;
+    resize: vertical;
+    border-style: hidden;
+}
+
+#body_of_contact {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+#sign_in_words {
+    padding: 20px;
+    font-size: 18px;
+}
+
+#footer_div {
+    width: 100%;
+    height: 500px;
+    background-color: #1a1a37;
+    color: white;
+
+}
+
+#footer_div i {
+    margin-right: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+/*Contact page end*/
+
+
+
+/*About page begin*/
+
+
+#about_col_12 {
+    height: 600px;
+    width: 100%;
+    background-image: url(images/campus2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0px;
+}
+#about_image {
+    width: 100%;
+    height: 100%;
+}
+
+#about_p {
+    color: white;
+    font-size: 30px;
+}
+#about_hr {
+    border: 1px solid white;
+}
+
+#about_text {
+    color: white;
+    font-size: 20px;
+}
+
+#about_div {
+    width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.4);padding: 20px;
+    transition: 0.5s ;
+}
+
+#about_div:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.team_main {
+    height: 300px;
+    /* background-color: #1a1a37; */
+    margin-bottom: 40px;
+    transition: 0.5s;
+    color: #1a1a37;
+    padding: 0px;
+    font-size: 18px;
+
+
+}
+
+.main_2 {
+    background-image: url(images/team2.jpg);
+}
+.team_main:hover {
+    background-color: #1a1a37;
+    color: #ffbc3b;
+}
+.team_main:hover .team_img {
+    transform: translate(860px,0px);
+}
+.team_main:hover .team_metn {
+    transform: translate(-280px,0);
+}
+
+.team_main:hover .team_name {
+ transform: translate(-280px,0px);
+}
+.team_img {
+    padding: 0px;
+    height: 100%;
+    background-image: url(images/team1.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    float: left;
+    
+}
+
+.team_metn {
+    float: left;
+    padding: 80px 50px;
+}
+.team_name {
+    float: left;
+    transition: 0.5s;
+    padding: 0px;
+    height: 300px;
+}
+.name_team {
+    height: 50%;
+    background-color: #ffbc3b;
+    color: #1a1a37;
+}
+
+.name_team span {
+    transform: rotate(90deg);
+}
+
+.rot_90 {
+    transform: rotate(90deg);
+    font-size: 25px;
+    color: #1a1a37;
+    font-family: cursive;
+    padding: 0px;
+    margin: 0px;
+    line-height:100px;
+}
+/*About page end*/
+
+
+
+
+/*Courses page begin */
+#courses_title {
+    font-size: 25px;
+    padding: 0px;
+    margin: 5px;
+}
+
+#course_left_main {
+    float: left;
+    padding: 0px;
+    
+    min-height: 600px;
+}
+
+
+#divs_of_course {
+    padding: 0px;
+}
+
+#html_course_offline_top {
+    background-color: tomato;
+    height: 40px;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: justify;
+    
+}
+
+#python_course_offline_top {
+    background-color: turquoise;
+    height: 40px;
+    line-height: 40px;
+    text-align: justify;
+}
+
+#course_main_div {
+    padding: 90px;
+}
+
+#course_left_main {
+    min-height: 500px;
+    
+    padding: 0px;
+}
+
+#course_html_top {
+    width: 100%;
+    height: 40px;
+    
+    background-color: #1a1a37;
+    color: #ffbc3b;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#course_css_top {
+    height: 40px;
+    background-color:#ffbc3b;
+    color: #1a1a37;
+    line-height: 40px;
+    text-align: center;
+    cursor:pointer;
+}
+
+#course_html_top:hover {
+    background-color: green;
+    color: white;
+}
+#course_css_top:hover {
+    background-color: green;
+    color: white;
+}
+#course_py_top:hover {
+    background-color: green;
+    color: white;
+}
+#course_server_top:hover {
+    background-color: green;
+    color: white;
+}
+#course_web_top:hover {
+    background-color: green;
+    color: white;
+}
+#course_xml_top:hover {
+    background-color: green;
+    color: white;
+}
+
+
+
+#course_server_top {
+    height: 40px;
+    background-color: #1a1a37;
+    color: #ffbc3b;
+    line-height: 40px;
+    text-align: center;
+    cursor:pointer;
+}
+
+#courses_right_1 {
+    height: 500px;
+    
+  
+    padding: 20px;
+}
+
+ 
+#html_slider {
+    height: 280px;
+    width: 100%;
+    background-color: coral;
+    
+    padding: 0px;
+}
+#css_slider {
+    height: 200px;
+    padding: 0px;
+    width: 100%;
+    background-color: cornflowerblue;
+    display: none;
+}
+
+#py_slider {
+    height: 200px;
+    width: 100%;
+    background-color: crimson;
+    padding: 0px;
+    display: none;
+}
+
+#server_slider {
+    height: 120px;
+    width: 100%;
+    background-color: darkgoldenrod;
+    padding: 0px;
+    display: none;
+}
+#course_right_main {
+    border-left: 1px solid lightgray;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+
+#web_slider {
+    height: 200px;
+    width: 100%;
+    background-color: darkgoldenrod;
+    padding: 0px;
+    display: none;
+
+}
+#xml_slider {
+    height: 280px;
+    padding: 0px;
+    width: 100%;
+    background-color: darkgoldenrod;
+    display: none;
+
+}
+#course_py_top {
+    height: 40px;
+    background-color:#ffbc3b;
+    color: #1a1a37;
+    line-height: 40px;
+    text-align: center;
+    cursor:pointer;
+
+}
+
+
+#course_xml_top {
+    height: 40px;
+    background-color:#1a1a37;
+    color: #ffbc3b;
+    line-height: 40px;
+    text-align: center;
+    cursor:pointer;
+
+}
+#course_web_top {
+    height: 40px;
+    background-color:#ffbc3b;
+    color: #1a1a37;
+    line-height: 40px;
+    text-align: center;
+    cursor:pointer;
+
+}
+
+
+#items_curse {
+    background-color: mediumseagreen;
+    height: 40px;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+}
+
+#items_curse:hover {
+    background-color: seagreen;
+    color: white;
+}
+#items_curse a {
+    color: white;
+}
+
+#right_img_1 {
+    width: 100%;
+    height: 50%;
+    
+    padding: 0px;
+}
+
+#right_title {
+    
+    width: 100%;
+    height: 50%;
+}
+
+#curs_img {
+    height: 100%;
+    width: 100%;
+
+
+}
+#courses_right_1 {
+    transition: 0.5s;
+    padding: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 40px;
+}
+
+#courses_right_1:hover {
+    transform: translate(0px,-40px);
+    background-color: #1a1a37;
+    color: white;
+
+}
+
+#courses_right_1:hover #begin_p {
+    color: white;
+}
+
+#course_p_new {
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+    color:red;
+}
+
+#hr_new_curs {
+    border: 1.5px solid #ffbc3b;
+}
+
+#offline_p {
+    line-height: 40px;
+    color: #1a1a37;
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+#left_main_curs {
+    height: 1181px;
+    background-color: #1a1a37;
+}
+/*Courses page end */
+
+
+
+
+
+ 
